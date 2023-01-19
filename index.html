@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+ <div class="main-container">
+    <div class="first-parent-container">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+    </div>
+    <div class="nav-bar"></div>
+    <div class="second-parent-container">
+    <div class="title-container"></div>
+    <div class="movie-container">
+        <div class="movie-one"></div>
+        <div class="movie-two"></div>
+        <div class="movie-three"></div>
+    </div>
+    <div class="small-container"></div>
+    
+    </div>
+    <div class="third-parent-container">
+        <div class="big-container">
+            <div class="article-title"></div>
+           <div class="movie-description"></div>
+    
+        </div>
+        <div class="advertisment-containers">
+            <div class="advertisments-container-a"></div>
+            <div class="advertisments-container-b"></div>
+            <div class="advertisments-container-c"></div>
+            <div class="advertisments-container-d"></div>
+        </div>
+           
+    </div>
+    
+
+    <div class="second-big-container">
+        <div class="second-article-title"></div>
+        <div class="second-movie-description"></div>
+        <div class="second-small-container"></div>
+    </div>
+    <div class="footer-container">
+        <div class="top-of-container"></div>
+        <div class="information-row-container">
+            <div class="child-container-one"></div>
+            <div class="child-container-two"></div>
+            <div class="child-container-three"></div>
+            <div class="child-container-four"></div>
+        </div>
+        <div class="page-links"></div>
+    </div>
+
+ </div>
+ <style>
+    * {
+    outline: 1px solid #ccc;
+    padding: 1rem;
+    min-height: 1rem;
+}
+
+.first-parent-container{
+    width: 95%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+.a{
+height: 30px;
+width: 50px;
+}
+.b{
+    height: 30px;
+    width: 520px;
+}
+.c{
+    height: 30px;
+    width: 100px;
+}
+.nav-bar{
+    height: 10px;
+    width: 95%;
+    margin-top: 10px;
+}
+.second-parent-container{
+    width: 95%;
+    height: 300px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.title-container{
+    width: 60px;
+    
+}
+.movie-container{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    outline: none;
+}
+.big-container{
+    margin-top: 5px;
+    width: 50%;
+    height: 200px;
+}
+.third-parent-container{
+    display: flex;
+    flex-direction: row;
+    outline: none;
+}
+.advertisment-containers{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+
+}
+.advertisment-containers > div {
+    width: 50px;
+}
+.information-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+ </style>
+
+</head>
+<body>
+    
+</body>
+</html>
